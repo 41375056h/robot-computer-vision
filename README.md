@@ -116,12 +116,3 @@ python evaluate_mapping.py \
 ```
 
 The current `(1800,1200)` mm / 90-degree CSV is preliminary only; those values were not independently measured in the corresponding video frames. The final report documents this limitation.
-
-## Final artifacts and limitations
-
-The full demo video, preview video, JSONL log, ROC CSV/PNG, and Word report are kept outside this code repository under `/home/intern/jeremy/CVHW/runs/` because videos are large.
-
-- The source video is 29.984 FPS, so a true 60 FPS camera demonstration requires a higher-frame-rate input.
-- Orientation uses foreground-mask PCA and can be ambiguous for symmetric masks.
-- Homography accuracy outside the manually marked field region is uncertain.
-- A physically measured static-car ground truth is still required for the final mapping-error table.

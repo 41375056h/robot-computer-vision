@@ -1,0 +1,7 @@
+path: /home/intern/datasets/CV/data
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: red_cone
+  1: toy_car
